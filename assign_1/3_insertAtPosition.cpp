@@ -8,7 +8,7 @@ public:
 };
 
 void insertAtPosition(Node* head, int newValue, int position=6){
-    if(position < 1){
+    if(position < 0){
         cout << "Invalid position!" << endl;
         return;
     }
