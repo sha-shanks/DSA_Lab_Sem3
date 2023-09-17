@@ -32,7 +32,7 @@ int findLargestNode(Node* head){
     
     if (head == nullptr) {
         cout << "Empty list!" << endl;
-        return 0;
+        return -1;
     }
     
     while (current != nullptr) {
